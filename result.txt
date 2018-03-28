@@ -34,4 +34,8 @@
 - 급커브에서 차선 이탈
 - 진전된 상태는 유지됨.
 
+# train with relu instead of elu
+- 더 나빠짐
+- elu로 원복예정
+
 
