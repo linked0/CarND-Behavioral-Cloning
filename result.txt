@@ -24,3 +24,7 @@
 - 결과 이전과 동일
 - 9 MPH, 너무 일찍 차선 이탈함.
 
+# train with model.add(Conv2D(3, kernel_size=(1, 1), strides=(1, 1), activation='linear')) and remove Dropout in convs
+- 상당히 진전이 있었으나 급커브에서 차선 이탈함.
+
+
