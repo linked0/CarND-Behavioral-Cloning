@@ -1,2 +1,7 @@
 # train with cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 - 9 MPH, 강물에 빠짐.
+
+# data: 24108, mydata: 8916
+
+# train with original sample data (24108개 이미지)
+- 9 MPH, 강물은 잘 넘어갔으나 다리 귀퉁에 걸려서 진행 못함.
