@@ -41,5 +41,7 @@
 # epochs=10
 - 'Dense(1, activation=linear)'와 크게 차이 없음.
 
+# learning rate = 0.0001
+- 역시 급커브구간에서 물에 빠짐
 
 
