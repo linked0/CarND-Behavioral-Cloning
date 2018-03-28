@@ -30,3 +30,8 @@
 # train with cropping=((65, 25)
 - 급커브에서 차선 이탈함
 
+# Dense(1, activation=linear)
+- 급커브에서 차선 이탈
+- 진전된 상태는 유지됨.
+
+
