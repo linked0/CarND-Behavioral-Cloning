@@ -5,3 +5,6 @@
 
 # train with original sample data (24108개 이미지)
 - 9 MPH, 강물은 잘 넘어갔으나 다리 귀퉁에 걸려서 진행 못함.
+
+# train with Normalize & Cropping
+- 9 MPH, 강물에 빠짐. 
