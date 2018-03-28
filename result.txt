@@ -1,0 +1,2 @@
+# train with cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+- 9 MPH, 강물에 빠짐.
