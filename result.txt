@@ -20,3 +20,7 @@
 - 결과 이전과 동일
 - 9 MPH, 너무 일찍 차선 이탈함.
 
+# train with model.add(Dense(1164, activation=elu))
+- 결과 이전과 동일
+- 9 MPH, 너무 일찍 차선 이탈함.
+
