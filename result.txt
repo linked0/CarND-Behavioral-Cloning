@@ -44,4 +44,10 @@
 # learning rate = 0.0001
 - 역시 급커브구간에서 물에 빠짐
 
+# epochs=15 and learning rate=0.0001
+- 급커브 구간에서 물에 빠집
+- NVidia 모델을 적용하면서(Keran 2.1.5) 조금 개선이 된 것으로 보임.
+
+
+
 
