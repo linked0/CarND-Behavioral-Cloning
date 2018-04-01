@@ -48,6 +48,34 @@
 - 급커브 구간에서 물에 빠집
 - NVidia 모델을 적용하면서(Keran 2.1.5) 조금 개선이 된 것으로 보임.
 
+# mydata, epochs=5
+- 2018년 3월 30일 금요일 21시 47분 57초 KST
+- 4755개의 학습은 아무래도 12857개의 데이터보다는 모델이 부정확하다.
+- 똑같은 위치에서 물에 빠지기는 하나 이전부터 트랙에서 벗어나 있었음.
 
+# mydata, adjust angle of right and left images, epochs=5
+- 2018년 3월 30일 금요일 22시 38분 45초 KST
+- 물에 안 빠지고, 9mph로 잘 달림. 성공!!!
 
+# mydata, adjust angle of right and left images, epochs=15
+- 2018년 3월 30일 금요일 22시 47분 52초 KST
+- 물에 안 빠지고 잘 가다가 다리 왼쪽 난간에 걸림.
+- 많이 왔다리 갔다리 함
 
+# mydata, adjust angle of right and left images, epochs=5
+- Adam(lr=0.0001,beta_1=0.9, beta_2=0.999, epsilon=1e-04, decay=0.0)
+- 한바퀴를 제대로 돔. 상당히 안정적임.
+
+# mydata, adjust angle of right and left images, epochs=5
+- Adam(lr=0.0001)
+- 한바퀴 제대로 돔.
+- 이전것보다 약간 왔다리 갔다리 하는 느낌.
+
+# mydata, adjust angle of right and left images, epochs=5
+- Adam(lr=0.0001,beta_1=0.9, beta_2=0.999, epsilon=1e-05, decay=0.0)
+- 트랙을 벗어나지는 않았으나 다리전에서 각도가 너무 크게 왔다 갔다 함.
+- 오른쪽 급커브에서는 epsilon 0.4, 0.3보다 가장 레인 중앙에 있음.
+
+# mydata, adjust angle of right and left images, epochs=5
+- Adam(lr=0.0001,beta_1=0.9, beta_2=0.999, epsilon=1e-05, decay=0.0)
+- 0.4보다는 약간 왔다갔다하는 경향이 있으나 오른쪽 급커브에서는 0.4보안 안정정임.
