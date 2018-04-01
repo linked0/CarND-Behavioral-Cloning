@@ -92,7 +92,7 @@ model.add(Dropout(dropout))
 model.add(Dense(1, activation='linear'))
 
 # compile and train the model
-optimizer = Adam(lr=0.0001,beta_1=0.9, beta_2=0.999, epsilon=1e-05, decay=0.0)
+optimizer = Adam(lr=0.0001,beta_1=0.9, beta_2=0.999, epsilon=1e-03, decay=0.0)
 model.compile(loss='mse', optimizer=optimizer)
 model.fit(X_train, y_train, validation_split=0.2, shuffle=True, epochs=5)
 
