@@ -77,5 +77,5 @@
 - 오른쪽 급커브에서는 epsilon 0.4, 0.3보다 가장 레인 중앙에 있음.
 
 # mydata, adjust angle of right and left images, epochs=5
-- Adam(lr=0.0001,beta_1=0.9, beta_2=0.999, epsilon=1e-05, decay=0.0)
+- Adam(lr=0.0001,beta_1=0.9, beta_2=0.999, epsilon=1e-03, decay=0.0)
 - 0.4보다는 약간 왔다갔다하는 경향이 있으나 오른쪽 급커브에서는 0.4보안 안정정임.
