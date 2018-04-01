@@ -74,7 +74,7 @@
 # mydata, adjust angle of right and left images, epochs=5
 - Adam(lr=0.0001,beta_1=0.9, beta_2=0.999, epsilon=1e-05, decay=0.0)
 - 트랙을 벗어나지는 않았으나 다리전에서 각도가 너무 크게 왔다 갔다 함.
-- 오른쪽 급커브에서는 epsilon 0.4, 0.3보다 가장 레인 중앙에 있음.
+- 오른쪽 급커브에서도 트랙을 살짝 벗어났다가 크게 방향을 틀어서 래인중앙으로 옴.
 
 # mydata, adjust angle of right and left images, epochs=5
 - Adam(lr=0.0001,beta_1=0.9, beta_2=0.999, epsilon=1e-03, decay=0.0)
