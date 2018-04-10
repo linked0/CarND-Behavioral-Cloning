@@ -45,7 +45,7 @@ The [model.py](./model.py) file contains the code for training and saving the co
 
 #### 1. An appropriate model architecture has been employed
 
-My model consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 ([model.py](./model.py) lines 71-76) 
+My model consists of a convolution neural network with 1x1, 3x3, 5x5 filter sizes and depths between 3 and 64 ([model.py](./model.py) lines 71-76) 
 
 The model includes ELU layers to introduce nonlinearity (code lines 72-76), and the data is normalized in the model using a Keras lambda layer (code line 67). 
 
@@ -73,7 +73,7 @@ The overall strategy for deriving a model architecture was to try new techniques
 
 My first step was to use a convolution neural network model similar to the LeNet model I thought this model might be appropriate because It is not too complex for the initial model.
 
-Step by step, I cropped the images in order to remove noise portion of the images and used the NVIDIA model. By applying those techniques, the driving performance had been improved. But, the self driving car in autonomouse mode of the simulator came to get out of the track in the sharp curve on the road.
+Step by step, I cropped the images in order to remove noise portion of the images and used [the NVIDIA model](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf). By applying those techniques, the driving performance had been improved. But, the self driving car in autonomouse mode of the simulator came to get out of the track in the sharp curve on the road.
 
 After using images from the left and right cameras and adjusting the angle for the images, the vehicle was able to drive autonomously around the track without leaving the road. 
 
@@ -139,4 +139,6 @@ The vehicle was able to drive autonomously around the track without leaving the 
 
 python drive.py model.h5
 
-https://youtu.be/mR6Gswp5Xmo
+Click on the image to watch the video or [click here](https://youtu.be/B81hCfodRMA). You will be directed to YouTube.
+
+[![Demo Video](https://img.youtube.com/vi/B81hCfodRMA/0.jpg)](https://youtu.be/B81hCfodRMA)
