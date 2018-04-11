@@ -121,13 +121,13 @@ To capture good driving behavior, I first recorded two laps on track one using c
 
 In order to simulate the effect of car wandering off to the side, I used left and right camera imges. I added a small angle 0.25(14.32 degrees) to the left camera and subtract a small angle 0.25 from the right camera.
 
-##### Ajdust steering angle from -0.05055147 to 0.19944853<br>
+##### Ajdust steering angle value from -0.05055147 to 0.19944853<br>
 ![alt text][left_2]
 <br>
 ##### Use the original value
 ![alt text][center_2]
 <br>
-##### Ajdust angle to 1 to 0.75 <br>
+##### Ajdust steering angle value from 1 to 0.75 <br>
 ![alt text][right_2]
 
 Then I repeated this process on track two in order to get more data points.
